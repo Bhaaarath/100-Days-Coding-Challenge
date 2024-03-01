@@ -1,3 +1,9 @@
+//Solution for Peak Element question in GeeksforGeeks
+/* The function should return the index of any
+   peak element present in the array */
+
+// arr: input array
+// n: size of array
 class Solution
 {
     public:
@@ -11,11 +17,10 @@ class Solution
            return n-1;
        }
        
-       
-       
-       
+       for(int i=1; i<n-1; i++){
+           if(arr[i]>=arr[i-1] and arr[i]>=arr[i+1]){
+               return i;
+           }
+       }
     }
 };
-
-
-//fgjfghkj
