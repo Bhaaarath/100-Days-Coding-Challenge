@@ -1,6 +1,6 @@
 //Solution for Peak Element question in GeeksforGeeks
-/* The function should return the index of any
-   peak element present in the array */
+// The function should return the index of any
+// peak element present in the array 
 
 // arr: input array
 // n: size of array
