@@ -1,4 +1,4 @@
-//solution to "Chocolate Distribution" problem GFG
+//solution to "Chocolate Distribution" problem GFG 
 class Solution {
   public:
     int chocolateDistribution(int N, int M, vector<int> &arr, vector<int> &brr) {
