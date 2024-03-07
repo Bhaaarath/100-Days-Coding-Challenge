@@ -1,4 +1,4 @@
-//Solution for Sum of bit differences question in GeeksforGeeks
+//Solution for Sum of bit differences question in GeeksforGeeks 
 class Solution{
 public:
 	
