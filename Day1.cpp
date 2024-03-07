@@ -1,5 +1,5 @@
 //Solution for Peak Element question in GeeksforGeeks
-// The function should return the index of any
+// The function should return the index of any of the
 // peak element present in the array 
 
 // arr: input array
