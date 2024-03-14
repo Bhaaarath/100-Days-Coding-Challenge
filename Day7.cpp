@@ -1,4 +1,4 @@
-//solution of "minimum vertical sum" gfg
+//solution of "minimum vertical sum" gfg 
 int minimum_vertical_sum(vector<vector<int>>&v)
 {
     int maxsize = 0;
