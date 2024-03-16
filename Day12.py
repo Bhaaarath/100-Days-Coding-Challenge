@@ -1,4 +1,4 @@
-//O(nlogn) solution "Valid Anagram" LeetCode
+// O(nlogn) solution "Valid Anagram" LeetCode
 class Solution {
 public:
     bool isAnagram(string s, string t) {
