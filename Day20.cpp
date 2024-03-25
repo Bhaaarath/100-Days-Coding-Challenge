@@ -16,12 +16,10 @@ int maxConsecutiveOnes(int x)
     string binrep = toBinary(x);
     for(int i=0; i<binrep.length(); i++){
         int len = 0;
-        if(binrep[i] == '1'){
-            while(binrep[i]=='1'){
-                len++;
-                largest = max(largest, len);
-                i++;
-            }
+        while(binrep[i]=='1'){
+            len++;
+            largest = max(largest, len);
+            i++;
         }
     }
     
