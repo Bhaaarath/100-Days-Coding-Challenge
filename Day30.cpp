@@ -1,3 +1,4 @@
+//optimal solution if positive zero & negative elements present
 #include <bits/stdc++.h> 
 int getLongestSubarray(vector<int>& a, int k){
     int n = a.size();
