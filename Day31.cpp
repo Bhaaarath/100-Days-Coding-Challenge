@@ -1,4 +1,5 @@
 //missingNumbers problem using XOR logic(optimal solution) 
+//same XOR logic for finding number that appears once in array
 int missingNumber(vector<int>&a, int N) {
     int esum = 0;
     int asum = 0;
