@@ -1,4 +1,4 @@
-//Longest Subarray With Sum K (only positives, optimal solution using 2 pointers)
+//Longest Subarray With Sum K (only positives, optimal solution using 2 pointers) 
 #include<bits/stdc++.h>
 int longestSubarrayWithSumK(vector<int> arr, long long k) {
     int i=0, j=0, n = arr.size();
