@@ -1,6 +1,6 @@
 vector<int> majorityElement(vector<int> v) {
 	int cnt = 0, n=v.size(), curele = v[0];
-	vector<int>res;
+	vector<int>res; 
 	sort(v.begin(), v.end());
 	for(int i=0; i<n; i++){
 		if(v[i] == curele){
